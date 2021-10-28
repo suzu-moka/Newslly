@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* ベース
+--------------------------- */
+body{
+    background-color: #fff;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EBEDED;
+}
+
+small{
+    color: #CBD0D3;
+    margin: 100px 0 30px;
+    text-align: right;
+}
+
+a{
+    color: #A6ADB4;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* レイアウト
+--------------------------- */
+/* header */
+.l-header{
+    height: 106px;
+    padding-top: 30px;
+}
+
+
+/* main */
+.l-main{
+
+}
+
+/* footer */
+.l-footer{
+    height: 156px;
+}
+
+/* フレックスボックス */
+.l-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.l-justify-between{
+  justify-content: space-between;
+}
+.l-justify-flex-start{
+    justify-content: flex-start;
+}
+
+.l-align-center{
+  align-items: center;
+}
+
+
+.l-inner{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.l-section{
+    padding: 60px 0;
+}
+
+.l-col6{
+    width: 47.5%;
+}
+
+.l-col3{
+    width: 30%;
+}
+
+.l-card-inner{
+    padding:35px;
+}
+
+.l-bac-card{
+    background-color: #F6F8F9;
+}
+
+.l-bac-footer{
+    background-color: #A6ADB4;
+}
+
+
+/* モジュール
+--------------------------- */
+/* news */
+.news{
+    margin-top: 60px;
+}
+
+.news-category{
+    color: #FA6980;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.news-title{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* card */
+
+.card{
+    margin-top: 30px;
+}
+
+.card-visual{
+
+}
+
+/* btn */
+
+/* date */
+.date{
+
+}
+
+.date-time{
+    color: #A6ADB4;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+/* text */
+.text{
+    color: #A6ADB4;
+    font-size: 14px;
+}
